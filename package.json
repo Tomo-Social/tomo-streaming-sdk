@@ -7,7 +7,7 @@
   "types": "./dist/index.d.ts",
   "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" } },
   "files": ["dist", "README.md"],
-  "scripts": { "build": "tsc -p tsconfig.json", "check": "tsc -p tsconfig.json --noEmit" },
+  "scripts": { "build": "tsc -p tsconfig.json", "check": "tsc -p tsconfig.json --noEmit", "prepare": "npm run build" },
   "devDependencies": { "typescript": "^5.8.3" },
   "engines": { "node": ">=18" },
   "license": "SEE LICENSE IN LICENSE.md"
