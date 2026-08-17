@@ -9,7 +9,7 @@
 [![WebRTC](https://img.shields.io/badge/transport-WebRTC-333333?logo=webrtc&logoColor=white)](https://webrtc.org/)
 [![License](https://img.shields.io/badge/license-PolyForm_Noncommercial-orange)](LICENSE.md)
 
-[Install](#installation) · [Public docs](https://docs.tomo.stream) · [Quick start](#quick-start) · [Input](#interactive-input) · [Control Plane](https://github.com/Tomo-Social/tomo-streaming-control-plane)
+[Install](#installation) · [Public docs](https://tomo-streaming-docs.pages.dev) · [Quick start](#quick-start) · [Input](#interactive-input) · [Control Plane](https://github.com/Tomo-Social/tomo-streaming-control-plane)
 
 </div>
 
