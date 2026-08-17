@@ -33,7 +33,7 @@ The package includes TypeScript declarations and builds automatically when insta
 ### 1. Create a session from your backend
 
 ```ts
-import { TomoStreamingClient } from "@tomo/streaming-sdk";
+import { TomoStreamingClient } from "@tomo-social/streaming-sdk";
 
 const streaming = new TomoStreamingClient({
   baseUrl: "https://stream.example.com",
@@ -107,7 +107,7 @@ Errors are exposed as `TomoStreamingError` with stable `status` and `code` field
 `TomoStreamInput` generates versioned binary packets for the WebRTC `input` DataChannel:
 
 ```ts
-import { TomoStreamInput } from "@tomo/streaming-sdk";
+import { TomoStreamInput } from "@tomo-social/streaming-sdk";
 
 inputDataChannel.send(TomoStreamInput.keyboard(0x04, true));
 inputDataChannel.send(TomoStreamInput.pointer(32_768, 32_768, 0));

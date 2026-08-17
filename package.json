@@ -1,5 +1,5 @@
 {
-  "name": "@tomo/streaming-sdk",
+  "name": "@tomo-social/streaming-sdk",
   "version": "0.1.0",
   "description": "TypeScript SDK for the standalone Tomo Streaming control plane",
   "type": "module",
